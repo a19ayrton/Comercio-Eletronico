@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  	 <script language="javascript">			
+    function pasuser(form) {
+      if (form.id.value == "aluno") {
+        if (form.senha.value == "impacta") {
+          location = "AC.html"
+        } else {
+          alert("Invalid Password")
+        }
+      } else {
+        alert("Invalid UserID")
+      }
+    }
+	 </script>
+     <link rel=”favicon” charset=”favicon.ico” />
+    <title>Login AC4 </title> 
+    <meta charset="utf-8">
+  </head>
+  <center>
+  <body style="background-color:#E0F8FF">
+  <div class="box-parent-login">
+	<div class="well bg-white box-login">
+		<h1 class="ls-login-logo">Atividade Continua 4</h1>
+		<form role="form">
+			
+ 
+				<div class="id" >
+					<label for="userLogin">Usuário:</label>
+					<input class="id" id="userLogin" type="text" aria-label="Usuário" placeholder="Usuário">
+				</div>
+ 
+				<div class="senha">
+					<label for="userPassword">Senha:</label>
+					<input class="senha" id="userPassword" type="password" aria-label="Senha" placeholder="Senha">
+				</div>
+ 
+				
+				<input type="submit" value="Entrar" class="btn btn-primary btn-lg btn-block">
+				
+				
+
+				
+ 
+			
+		</form>
+	</div>
+</div>
+  </body>
+</center>
+</html>
