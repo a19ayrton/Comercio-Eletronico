@@ -2,7 +2,7 @@
 
 <head>
   <script language="javascript">
-    function pasuser(form) {
+    function log(form) {
       if (form.id.value == "aluno") {
         if (form.pass.value == "impacta") {
           location = "AC.html"
@@ -37,7 +37,7 @@
   <form name="login">
     <input name="id" type="text"aria-label="Usuário" placeholder="Usuário">
     <input name="pass" type="password"aria-label="Senha" placeholder="Senha">
-    <input type="button" value="Logar" onClick="pasuser(this.form)">
+    <input type="button" value="Logar" onClick="log(this.form)">
     <input type="button" value="Cadastrar" onClick="cad(this.form)">
    
    
